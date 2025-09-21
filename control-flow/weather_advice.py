@@ -1,15 +1,12 @@
-weather1 = "sunny"
-weather2 = "rainy"
-weather3 = "cold"
+# Prompt User for Weather Input
+weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 
-user_input = input("What's the weather like today? (sunny/rainy/cold):").strip().lower()
-
-if user_input == weather1:
-    print(" Wear a t-shirt and sunglasses.")
-elif user_input == weather2:
-    print(" don't forget your umbrella and raincoat.")
-elif user_input == weather3:
-    print(" Make sure to wear a warm coat and a scarf.")
+# Provide Clothing Recommendations
+if weather == "sunny":
+    print("Wear a t-shirt and sunglasses.")
+elif weather == "rainy":
+    print("Don't forget your umbrella and a raincoat.")
+elif weather == "cold":
+    print("Make sure to wear a warm coat and a scarf.")
 else:
     print("Sorry, I don't have recommendations for this weather.")
-# This program provides clothing advice based on the weather condition input by the user.
