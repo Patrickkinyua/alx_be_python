@@ -2,7 +2,7 @@ weather1 = "sunny"
 weather2 = "rainy"
 weather3 = "cold"
 
-user_input = input("Enter the weather condition (sunny, rainy, cold): ").strip().lower()
+user_input = input("What's the weather like today? (sunny/rainy/cold):").strip().lower()
 
 if user_input == weather1:
     print(" Wear a t-shirt and sunglasses.")
