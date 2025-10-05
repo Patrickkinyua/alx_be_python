@@ -19,4 +19,4 @@ def withdraw(self,amount):
         return False
     
     def display_balance(self):
-        print (f"Current balance: ${self.initial_balance:.2f}")
+        print (f"Current Balance: ${self.initial_balance:.2f}")
